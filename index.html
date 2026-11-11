@@ -1,0 +1,458 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maneesh Sanniboina | Physical Design Engineer</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0b1220;
+    color: #e8eef7;
+    line-height: 1.7;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+header {
+    background: #111c2e;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #26364d;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #48c6d9;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+nav a:hover {
+    color: #48c6d9;
+}
+
+.hero {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero h1 span {
+    color: #48c6d9;
+}
+
+.hero h2 {
+    color: #a8b6c9;
+    margin: 10px 0;
+}
+
+.hero p {
+    color: #a8b6c9;
+    max-width: 650px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 22px;
+    background: #0077b5;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #005582;
+    color: #ffffff;
+}
+
+.profile {
+    background: #16243a;
+    padding: 30px;
+    border-radius: 15px;
+    min-width: 260px;
+}
+
+.profile h3 {
+    color: #48c6d9;
+    margin-bottom: 15px;
+}
+
+section {
+    padding: 65px 0;
+    border-top: 1px solid #26364d;
+}
+
+.section-title {
+    font-size: 32px;
+    color: #48c6d9;
+    margin-bottom: 25px;
+}
+
+.card {
+    background: #111c2e;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #26364d;
+}
+
+.card h3 {
+    color: #48c6d9;
+    margin-bottom: 12px;
+}
+
+.card p, .card li {
+    color: #a8b6c9;
+}
+
+ul {
+    padding-left: 22px;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.skill {
+    background: #16243a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skill h3 {
+    color: #48c6d9;
+    margin-bottom: 10px;
+}
+
+.project-details {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.project-details div {
+    background: #16243a;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.project-details strong {
+    color: #48c6d9;
+    display: block;
+}
+
+.contact a {
+    color: #48c6d9;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #a8b6c9;
+    background: #111c2e;
+}
+
+@media(max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 60px 0;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .skill-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-details {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<nav>
+<div class="logo">MANEESH.</div>
+<div>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#experience">Experience</a>
+<a href="#projects">Projects</a>
+<a href="#education">Education</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+</div>
+</header>
+
+<!-- HOME -->
+<section id="home">
+<div class="container hero">
+
+<div>
+<h1>Maneesh <span>Sanniboina</span></h1>
+<h2>Physical Design Engineer</h2>
+
+<p>
+Physical Design Engineer with hands-on experience in
+28nm block-level ASIC implementation. Knowledge of
+RTL-to-GDSII flow, Floorplanning, Power Planning,
+Placement, CTS, Routing and Timing Closure using
+Synopsys ICC2 and PrimeTime.
+</p>
+
+<a href="#projects" class="btn">View My Projects</a>
+</div>
+
+<div class="profile">
+<h3>Physical Design Profile</h3>
+<p>Technology: 28nm</p>
+<p>Instance Count: 52.47K</p>
+<p>Frequency: 424.78 MHz</p>
+<p>Macros: 40</p>
+<p>Number of Clocks: 8</p>
+</div>
+
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+<div class="container">
+<h2 class="section-title">About Me</h2>
+
+<div class="card">
+<p>
+I am a Physical Design Engineer at VLSIGURU Pvt. Ltd.
+with experience in ASIC physical design implementation.
+I have worked on the RTL-to-GDSII flow, focusing on
+floorplanning, power planning, placement, CTS, routing,
+timing analysis and physical verification.
+</p>
+</div>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+<div class="container">
+<h2 class="section-title">Technical Skills</h2>
+
+<div class="skill-grid">
+
+<div class="skill">
+<h3>Physical Design</h3>
+<p>Floorplanning</p>
+<p>Power Planning</p>
+<p>Placement</p>
+<p>CTS</p>
+<p>Routing</p>
+<p>Timing Closure</p>
+</div>
+
+<div class="skill">
+<h3>STA</h3>
+<p>Setup and Hold Analysis</p>
+<p>Slack</p>
+<p>Clock Skew</p>
+<p>Clock Latency</p>
+<p>OCV</p>
+<p>CRPR</p>
+</div>
+
+<div class="skill">
+<h3>Physical Verification</h3>
+<p>DRC</p>
+<p>LVS</p>
+<p>Antenna</p>
+<p>ERC</p>
+<p>IR Drop</p>
+<p>ECO</p>
+</div>
+
+<div class="skill">
+<h3>EDA Tools</h3>
+<p>Synopsys ICC2</p>
+<p>PrimeTime</p>
+<p>Design Compiler</p>
+<p>Cadence Innovus</p>
+</div>
+
+<div class="skill">
+<h3>Scripting</h3>
+<p>Tcl Scripting</p>
+<p>Linux Shell</p>
+</div>
+
+<div class="skill">
+<h3>Digital Design</h3>
+<p>CMOS</p>
+<p>Combinational Logic</p>
+<p>Sequential Logic</p>
+<p>FSM</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+<div class="container">
+<h2 class="section-title">Experience</h2>
+
+<div class="card">
+<h3>Physical Design Engineer</h3>
+<p>VLSIGURU Pvt. Ltd.</p>
+<p>May 2026 – Present</p>
+
+<ul>
+<li>Working on ASIC Physical Design using Synopsys ICC2 and PrimeTime.</li>
+<li>Performing floorplanning, power planning and placement.</li>
+<li>Performing Clock Tree Synthesis and routing.</li>
+<li>Analyzing setup and hold violations.</li>
+<li>Performing congestion analysis and physical verification.</li>
+<li>Using Tcl scripting and Linux commands.</li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- PROJECT -->
+<section id="projects">
+<div class="container">
+<h2 class="section-title">Projects</h2>
+
+<div class="card">
+<h3>28nm Block-Level ASIC Physical Design Implementation</h3>
+<p>VLSIGURU Pvt. Ltd.</p>
+<p>January 2026 – November 2026</p>
+
+<div class="project-details">
+<div><strong>28nm</strong>Technology</div>
+<div><strong>52.47K</strong>Instances</div>
+<div><strong>424.78 MHz</strong>Frequency</div>
+<div><strong>40</strong>Macros</div>
+</div>
+
+<h3>Project Contributions</h3>
+<ul>
+<li>Implemented four floorplan configurations: L-shaped, T-shaped, U-shaped and R-shaped.</li>
+<li>Performed power planning and EM/IR analysis.</li>
+<li>Optimized placement congestion using placement blockages.</li>
+<li>Performed CTS using Classic and CCD flows.</li>
+<li>Resolved setup and hold violations using PrimeTime STA.</li>
+<li>Fixed post-route DRC violations through manual rerouting.</li>
+<li>Optimized maximum transition and capacitance violations.</li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+<div class="container">
+<h2 class="section-title">Education & Certification</h2>
+
+<div class="card">
+<h3>B.Tech – Electronics and Communication Engineering</h3>
+<p>PBR Visvodaya Institute of Technology and Science, Kavali</p>
+<p>2022 – 2026 | CGPA: 8.2/10</p>
+</div>
+
+<div class="card">
+<h3>ASIC Physical Design Certification</h3>
+<p>VLSIGURU Institute – 2026</p>
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<div class="container">
+<h2 class="section-title">Contact Me</h2>
+
+<div class="card contact">
+<p>Email:
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=maneeshsanniboina@gmail.com" target="_blank">
+maneeshsanniboina@gmail.com
+</a>
+</p>
+
+<p>Phone:
+<a href="tel:+916281162701">+91 6281162701</a>
+</p>
+
+<p>Location: India</p>
+
+<a class="btn"
+href="https://mail.google.com/mail/?view=cm&fs=1&to=maneeshsanniboina@gmail.com"
+target="_blank">
+Email Me
+</a>
+</div>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Maneesh Sanniboina | Physical Design Engineer</p>
+</footer>
+
+</body>
+</html>
